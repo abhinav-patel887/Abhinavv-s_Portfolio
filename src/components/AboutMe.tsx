@@ -5,6 +5,7 @@ import { motion, Variants } from "framer-motion";
 import { Home, User, Mail, Menu, X, FileText } from "lucide-react";
 import { GiSprout } from "react-icons/gi";
 import { FaCode } from "react-icons/fa";
+import Image from "next/image";
 
 
 const AboutSection: React.FC = () => {
@@ -163,10 +164,10 @@ const AboutSection: React.FC = () => {
                       : i === 1
                       ? (
                         <>
-                          I’m an <span className="font-semibold text-white">entrepreneur-minded</span> individual who has 
-                          experimented with multiple ideas — some didn’t work out, but each one shaped my perspective and resilience. 
+                          I&apos;m an <span className="font-semibold text-white">entrepreneur-minded</span> individual who has 
+                          experimented with multiple ideas — some didn&apos;t work out, but each one shaped my perspective and resilience. 
                           I take every failure as a <span className="font-semibold text-white">lesson and an opportunity to grow</span>. 
-                          Currently, I’m focused on improving my social, soft, and technical skills as I continue progressing in my 
+                          Currently, I&apos;m focused on improving my social, soft, and technical skills as I continue progressing in my 
                           journey of learning and building.
                         </>
                       )
@@ -203,7 +204,7 @@ const AboutSection: React.FC = () => {
               </div>
             </motion.div>
 
-            {/* Right Image */}
+            {/* Right Image - FIXED: Using Next.js Image */}
             <motion.div
               initial="hidden"
               whileInView="visible"
@@ -214,10 +215,13 @@ const AboutSection: React.FC = () => {
               <div className="relative group cursor-pointer">
                 <div className="absolute -inset-1 bg-white rounded-2xl blur-2xl opacity-20 group-hover:opacity-40 transition-opacity"></div>
                 <div className="relative bg-white/5 rounded-2xl overflow-hidden border border-white/20">
-                  <img
+                  <Image
                     src="/pose.png"
                     alt="Abhinav Patel - Professional"
+                    width={600}
+                    height={600}
                     className="w-full h-[400px] md:h-[500px] lg:h-[600px] object-cover object-center grayscale hover:grayscale-0 transition-all duration-700"
+                    priority
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent pointer-events-none"></div>
                 </div>

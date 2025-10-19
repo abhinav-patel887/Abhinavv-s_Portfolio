@@ -46,9 +46,9 @@ const QuotesSection: React.FC = () => {
               {/* Frame Inner Border */}
               <div className="absolute inset-4 border-2 border-white/20 rounded pointer-events-none"></div>
 
-              {/* Decorative Quote Mark */}
+              {/* Decorative Quote Mark - FIXED: Using HTML entity */}
               <div className="absolute top-6 left-6 text-white/10 text-[120px] font-serif leading-none select-none">
-                "
+                &ldquo;
               </div>
 
               {/* Quote Text */}

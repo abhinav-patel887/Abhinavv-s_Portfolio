@@ -2,6 +2,7 @@
 
 import React from "react";
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 interface Skill {
   name: string;
@@ -150,15 +151,18 @@ const TechnicalSkillsSection: React.FC = () => {
                     {/* Hover Glow Effect */}
                     <div className="absolute inset-0 bg-gradient-to-br from-white/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
 
-                    {/* Icon */}
+                    {/* Icon - FIXED: Using Next.js Image */}
                     <div className="w-16 h-16 relative z-10 flex items-center justify-center">
-                      <img
+                      <Image
                         src={skill.icon}
                         alt={skill.name}
+                        width={64}
+                        height={64}
                         className="w-full h-full object-contain filter brightness-0 invert opacity-80 group-hover:opacity-100 transition-opacity duration-300"
                         onError={(e) => {
                           // Fallback to a generic icon if the specific one fails
-                          e.currentTarget.src = "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/circle.svg";
+                          const target = e.target as HTMLImageElement;
+                          target.src = "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/circle.svg";
                         }}
                       />
                     </div>
