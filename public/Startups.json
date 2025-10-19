@@ -1,0 +1,34 @@
+{
+  "startups": [
+    {
+      "name": "Swaasthya",
+      "description": "Revolutionizing personal health with a smart nutrition companion! Tracks meals, decodes packaged food ingredients, provides actionable diet insights, and empowers users with personalized wellness recommendations for a healthier lifestyle.",
+      "status": "Failed",
+      "icon": "HeartPulse"
+    },
+    {
+      "name": "Locarzoo",
+      "description": "Transforming the used car marketplace! Streamlines buying and selling through verified inspections, servicing, and seamless documentation. Cuts out middlemen, reduces costs, and creates a trustworthy automotive ecosystem.",
+      "status": "Failed",
+      "icon": "Car"
+    },
+    {
+      "name": "Local Link",
+      "description": "Redefining community connectivity! Connects rental owners and tenants through a smart hold-and-renew system, slashing subscription fees, providing real-time neighborhood insights, and fostering meaningful local engagement.",
+      "status": "In Progress",
+      "icon": "MapPin"
+    },
+    {
+      "name": "AI Contract Bidding",
+      "description": "Empowering smarter government bids! Leverages AI to predict fair contract prices, optimize bidding strategies, and prevent resource wastage. Enables competitive yet transparent bids, driving efficiency in public procurement.",
+      "status": "Yet to Start",
+      "icon": "FileText"
+    },
+    {
+      "name": "AI Construction Planner",
+      "description": "Building the future of construction management! Uses AI to accurately forecast material needs, costs, and timelines for projects. Optimizes resources, reduces overruns, and ensures projects stay on time and budget.",
+      "status": "Yet to Start",
+      "icon": "Home"
+    }
+  ]
+}

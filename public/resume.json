@@ -1,0 +1,111 @@
+{
+  "name": "Abhinav Gunnammagari",
+  "role": "Associate Software Engineer (AIML) | Data Engineer | AI/ML Enthusiast",
+  "location": "Hyderabad, India",
+  "email": "gunnammagariabhinavpatel@gmail.com",
+  "phone": "+91 9542712738",
+
+  "summary": "Results-driven engineer passionate about building intelligent and scalable data systems. Skilled in designing automation workflows, AI-powered systems, and data pipelines that drive actionable insights and predictive analytics.",
+
+  "experience": [
+    {
+      "title": "Associate Software Engineer (AIML)",
+      "organization": "Pennant Technologies Pvt. Ltd.",
+      "location": "Hyderabad, India",
+      "duration": "2024 – Present",
+      "description": [
+        "Designed and deployed automated data ingestion pipelines for enterprise Data Intelligence Platforms integrating multi-source data.",
+        "Built and containerized microservices with Docker, integrated with Airflow DAGs for end-to-end orchestration.",
+        "Worked on Spark transformation, data ingestion automation, and predictive analytics integrations with LLM-based systems."
+      ]
+    },
+    {
+      "title": "Mentor",
+      "organization": "Smart Interviews Training",
+      "location": "Hyderabad",
+      "duration": "2025",
+      "description": [
+        "Guided and mentored over 120+ students in Data Structures, Algorithms, and coding interview preparation.",
+        "Conducted mock interviews, problem-solving sessions, and code reviews to improve algorithmic thinking and competitive programming skills.",
+        "Helped students enhance their debugging, optimization, and analytical reasoning abilities."
+      ]
+    }
+  ],
+
+  "education": [
+    {
+      "degree": "Bachelor of Technology in Computer Science Engineering",
+      "institution": "Geethanjali College of Engineering and Technology, Hyderabad",
+      "duration": "2021 – 2025",
+      "grade": "8.4 CGPA"
+    },
+    {
+      "degree": "Intermediate (MPC)",
+      "institution": "Sri Chaitanya Junior Kalasala, Hyderabad",
+      "board": "Telangana State Board of Intermediate Education (TSBIE)",
+      "duration": "2019 – 2021",
+      "score": "922 / 1000"
+    },
+    {
+      "degree": "Secondary School Certificate (SSC)",
+      "institution": "Vignana Bharathi High School, Hyderabad",
+      "board": "Telangana State Board of Secondary Education (TSBST)",
+      "duration": "2019",
+      "grade": "9.3 GPA"
+    }
+  ],
+
+  "projects": [
+    {
+      "title": "Customer Feedback AI Automation Agent",
+      "description": [
+        "Built a fully automated AI Agent using n8n and Google Gemini API to analyze, categorize, and route feedback with minimal manual intervention.",
+        "Integrated classification into Complaints, Compliments, and Feature Requests, with Slack notifications and Airtable data logging.",
+        "Developed a personalized email response automation system via Gmail API for improved engagement."
+      ],
+      "technologies": ["REST APIs", "n8n", "Langchain", "Python", "Google Gemini", "Git"]
+    },
+    {
+      "title": "Resume Scanner (AI-Powered Resume Analysis Tool)",
+      "description": [
+        "Developed an AI-powered resume parser that extracts and highlights key data using Google Gemini API.",
+        "Built a React-Tailwind UI and backend with Node.js and MySQL for resume data management.",
+        "Implemented AI-driven suggestions for improvement based on job descriptions."
+      ],
+      "technologies": ["React.js", "Tailwind CSS", "Node.js", "Express.js", "Langchain", "MySQL", "Google Gemini API", "REST APIs", "Git"]
+    },
+    {
+      "title": "Deep Klarity",
+      "description": [
+        "Developed a song lyrics generator across multiple genres with an integrated guessing game mode using NLP models and generative AI."
+      ],
+      "technologies": ["React.js", "Tailwind CSS", "Node.js", "Express.js", "Langchain", "Google Gemini API", "REST APIs", "Git"]
+    },
+    {
+      "title": "Astra Agritech",
+      "description": [
+        "Developed a web platform enabling farmers to sell produce directly to consumers, eliminating middlemen and ensuring fair pricing.",
+        "Added AI-powered market analytics to help farmers make data-driven decisions about demand and pricing."
+      ],
+      "technologies": ["React.js", "Tailwind CSS", "Node.js", "Express.js", "MySQL", "REST APIs", "Git"]
+    },
+    {
+      "title": "World Tracker",
+      "description": [
+        "Created a fully customizable news aggregator platform that curates global news based on keyword interest and category selection.",
+        "Integrated personalization with AI-driven news recommendations and sentiment-based filters."
+      ]
+    }
+  ],
+
+  "certifications": [
+    "Smart Coder Course – Smart Interviews",
+    "Data Science using Python – NSIC Internship Program",
+    "AI & ML Course – Oracle Academy",
+    "React Course – Simplilearn"
+  ],
+
+  "links": {
+    "github": "https://github.com/abhinavvpatel"
+  }
+}
