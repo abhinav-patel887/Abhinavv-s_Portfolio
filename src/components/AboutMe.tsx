@@ -21,7 +21,7 @@ const AboutSection: React.FC = () => {
     { icon: User, label: "About", href: "#about" },
     { icon: FileText, label: "Resume", href: "#resume" },
     { icon: FaCode, label: "Technical Skills", href: "#technical-skills" },
-    { icon:  GiSprout, label: "Startup Journey", href: "#startup-journey" },
+    // { icon:  GiSprout, label: "Startup Journey", href: "#startup-journey" },
     { icon: Mail, label: "Contact", href: "#contact" },
   ];
 
