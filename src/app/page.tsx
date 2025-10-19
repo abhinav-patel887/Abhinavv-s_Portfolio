@@ -20,7 +20,7 @@ export default function Home() {
       <ResumeSection/>
       <TechnicalSkillsSection/>
       <QuotesSection/>
-      <StartupJourneySection/>
+      {/*<StartupJourneySection/>*/}
       <ContactMeSection/>
       {/* You will add other sections like About, Skills, etc. below this line later */}
     </main>
