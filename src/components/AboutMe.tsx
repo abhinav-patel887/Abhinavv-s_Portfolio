@@ -158,7 +158,7 @@ const AboutSection: React.FC = () => {
                   <p className="text-base sm:text-lg md:text-xl text-gray-300 leading-relaxed">
                     {i === 0 ? (
                       <>
-                        I'm an{" "}
+                        I&apos;m an{" "}
                         <span className="font-semibold text-white">AI/ML Engineer</span>{" "}
                         driven by curiosity and a passion for building intelligent systems
                         that solve real-world problems. Currently, I work as an{" "}
@@ -175,7 +175,7 @@ const AboutSection: React.FC = () => {
                       </>
                     ) : i === 1 ? (
                       <>
-                        Over the past year, I've built{" "}
+                        Over the past year, I&apos;ve built{" "}
                         <span className="font-semibold text-white">
                           AI Governance Platforms
                         </span>
@@ -194,7 +194,7 @@ const AboutSection: React.FC = () => {
                       </>
                     ) : (
                       <>
-                        While building production AI systems today, I'm equally passionate about understanding the science behind intelligence. My long-term vision is to explore{" "}
+                        While building production AI systems today, I&apos;m equally passionate about understanding the science behind intelligence. My long-term vision is to explore{" "}
                         <span className="font-semibold text-white">
                           Machine Learning, Deep Learning, Neural Networks, Reinforcement
                           Learning, and the broader DeepTech ecosystem
