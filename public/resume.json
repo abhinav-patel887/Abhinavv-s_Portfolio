@@ -1,55 +1,44 @@
 {
   "name": "Abhinav Gunnammagari",
-  "role": "Associate Software Engineer (AIML) | Data Engineer | AI/ML Enthusiast",
+  "role": "Associate Software Engineer (AI/ML) | AI/ML Engineer | Generative AI Enthusiast",
   "location": "Hyderabad, India",
   "email": "gunnammagariabhinavpatel@gmail.com",
   "phone": "+91 9542712738",
 
-  "summary": "Results-driven engineer passionate about building intelligent and scalable data systems. Skilled in designing automation workflows, AI-powered systems, and data pipelines that drive actionable insights and predictive analytics.",
+  "summary": "AI/ML Engineer with hands-on experience building production-ready AI systems, RAG applications, AI governance platforms, and intelligent automation solutions. Passionate about Generative AI, AI Agents, LLMs, and scalable backend engineering, with a strong foundation in Data Engineering, Spark, and modern cloud technologies.",
 
   "experience": [
     {
-      "title": "Associate Software Engineer (AIML)",
+      "title": "Associate Software Engineer (AI/ML)",
       "organization": "Pennant Technologies Pvt. Ltd.",
       "location": "Hyderabad, India",
-      "duration": "2024 – Present",
+      "duration": "June 2025 – Present",
       "description": [
-        "Designed and deployed automated data ingestion pipelines for enterprise Data Intelligence Platforms integrating multi-source data.",
-        "Built and containerized microservices with Docker, integrated with Airflow DAGs for end-to-end orchestration.",
-        "Worked on Spark transformation, data ingestion automation, and predictive analytics integrations with LLM-based systems."
-      ]
-    },
-    {
-      "title": "Mentor",
-      "organization": "Smart Interviews Training",
-      "location": "Hyderabad",
-      "duration": "2025",
-      "description": [
-        "Guided and mentored over 120+ students in Data Structures, Algorithms, and coding interview preparation.",
-        "Conducted mock interviews, problem-solving sessions, and code reviews to improve algorithmic thinking and competitive programming skills.",
-        "Helped students enhance their debugging, optimization, and analytical reasoning abilities."
+        "Designed and developed enterprise AI Governance Platform modules including RBAC, GRC workflows, AI evaluation pipelines, and continuous AI asset monitoring.",
+        "Built an end-to-end Retrieval-Augmented Generation (RAG) system using Milvus, Mistral, Ollama, and FastAPI that reduced duplicate support tickets by 37%.",
+        "Developed AI-powered workflow automation that converts workflow diagrams and voice inputs into executable JSON workflows using Google's Gemini Vision models.",
+        "Designed scalable ELT pipelines integrating enterprise data sources into Amazon S3 and Apache Iceberg using Airbyte, Meltano, DLTHub, Spark, and Airflow.",
+        "Worked on production AI applications involving LLMs, AI Agents, vector databases, REST APIs, Docker, and distributed data processing."
       ]
     }
   ],
 
   "education": [
     {
-      "degree": "Bachelor of Technology in Computer Science Engineering",
-      "institution": "Geethanjali College of Engineering and Technology, Hyderabad",
+      "degree": "Bachelor of Technology in Computer Science & Engineering",
+      "institution": "Geethanjali College of Engineering and Technology",
       "duration": "2021 – 2025",
-      "grade": "8.4 CGPA"
+      "grade": "8.2 CGPA"
     },
     {
       "degree": "Intermediate (MPC)",
-      "institution": "Sri Chaitanya Junior Kalasala, Hyderabad",
-      "board": "Telangana State Board of Intermediate Education (TSBIE)",
+      "institution": "Sri Chaitanya Junior Kalasala",
       "duration": "2019 – 2021",
       "score": "922 / 1000"
     },
     {
       "degree": "Secondary School Certificate (SSC)",
-      "institution": "Vignana Bharathi High School, Hyderabad",
-      "board": "Telangana State Board of Secondary Education (TSBST)",
+      "institution": "Vignana Bharathi High School",
       "duration": "2019",
       "grade": "9.3 GPA"
     }
@@ -57,55 +46,127 @@
 
   "projects": [
     {
-      "title": "Customer Feedback AI Automation Agent",
+      "title": "AI Governance Platform",
       "description": [
-        "Built a fully automated AI Agent using n8n and Google Gemini API to analyze, categorize, and route feedback with minimal manual intervention.",
-        "Integrated classification into Complaints, Compliments, and Feature Requests, with Slack notifications and Airtable data logging.",
-        "Developed a personalized email response automation system via Gmail API for improved engagement."
+        "Built enterprise AI Governance modules including Role-Based Access Control (RBAC), Governance Review Control (GRC), AI asset discovery, and AI evaluation pipelines.",
+        "Developed automated AI asset monitoring across cloud environments with support for governance, security, and compliance workflows."
       ],
-      "technologies": ["REST APIs", "n8n", "Langchain", "Python", "Google Gemini", "Git"]
+      "technologies": [
+        "Python",
+        "FastAPI",
+        "AWS Bedrock",
+        "Azure",
+        "Docker",
+        "REST APIs"
+      ]
     },
     {
-      "title": "Resume Scanner (AI-Powered Resume Analysis Tool)",
+      "title": "RAG-Based Ticket Recommendation System",
       "description": [
-        "Developed an AI-powered resume parser that extracts and highlights key data using Google Gemini API.",
-        "Built a React-Tailwind UI and backend with Node.js and MySQL for resume data management.",
-        "Implemented AI-driven suggestions for improvement based on job descriptions."
+        "Developed an end-to-end Retrieval-Augmented Generation pipeline using Milvus vector database, Mistral LLM, Ollama embeddings, and FastAPI.",
+        "Reduced duplicate support tickets by 37% by recommending similar historical tickets with AI-powered semantic search."
       ],
-      "technologies": ["React.js", "Tailwind CSS", "Node.js", "Express.js", "Langchain", "MySQL", "Google Gemini API", "REST APIs", "Git"]
+      "technologies": [
+        "Python",
+        "FastAPI",
+        "Milvus",
+        "Mistral",
+        "Ollama",
+        "RAG",
+        "LLMs"
+      ]
     },
     {
-      "title": "Deep Klarity",
+      "title": "Theia AI - Image & Voice Workflow Automation",
       "description": [
-        "Developed a song lyrics generator across multiple genres with an integrated guessing game mode using NLP models and generative AI."
+        "Built an AI system that converts hand-drawn workflows, Figma diagrams, and voice instructions into executable workflow JSON.",
+        "Integrated Gemini Vision APIs with an enterprise workflow engine for intelligent automation."
       ],
-      "technologies": ["React.js", "Tailwind CSS", "Node.js", "Express.js", "Langchain", "Google Gemini API", "REST APIs", "Git"]
+      "technologies": [
+        "Python",
+        "FastAPI",
+        "Gemini API",
+        "Computer Vision",
+        "REST APIs"
+      ]
     },
     {
-      "title": "Astra Agritech",
+      "title": "COD Risk Scoring Agent",
       "description": [
-        "Developed a web platform enabling farmers to sell produce directly to consumers, eliminating middlemen and ensuring fair pricing.",
-        "Added AI-powered market analytics to help farmers make data-driven decisions about demand and pricing."
+        "Designed an AI-powered risk scoring system predicting Cash-on-Delivery order returns using Bayesian modelling and customer behaviour analysis.",
+        "Generated explainable risk scores to support merchant decisions including prepaid conversion and verification workflows."
       ],
-      "technologies": ["React.js", "Tailwind CSS", "Node.js", "Express.js", "MySQL", "REST APIs", "Git"]
+      "technologies": [
+        "Python",
+        "Machine Learning",
+        "FastAPI",
+        "REST APIs",
+        "SQL"
+      ]
     },
     {
-      "title": "World Tracker",
+      "title": "Customer Feedback Automation System",
       "description": [
-        "Created a fully customizable news aggregator platform that curates global news based on keyword interest and category selection.",
-        "Integrated personalization with AI-driven news recommendations and sentiment-based filters."
+        "Built an AI-powered feedback analysis system that classifies customer feedback, routes requests automatically, and drafts intelligent responses using LLMs."
+      ],
+      "technologies": [
+        "Python",
+        "LLMs",
+        "NLP",
+        "Automation",
+        "REST APIs"
       ]
     }
   ],
 
+  "skills": {
+    "languages": [
+      "Python",
+      "SQL",
+      "Java",
+      "JavaScript",
+      "C++"
+    ],
+    "ai_ml": [
+      "Generative AI",
+      "Large Language Models",
+      "RAG",
+      "LangChain",
+      "AI Agents",
+      "Gemini",
+      "Mistral",
+      "Milvus",
+      "NLP",
+      "Computer Vision"
+    ],
+    "data_engineering": [
+      "Apache Spark",
+      "PySpark",
+      "Apache Airflow",
+      "Apache Iceberg",
+      "Airbyte",
+      "Meltano",
+      "DLTHub",
+      "Amazon S3"
+    ],
+    "backend": [
+      "FastAPI",
+      "REST APIs",
+      "Docker",
+      "Linux",
+      "Git"
+    ]
+  },
+
   "certifications": [
-    "Smart Coder Course – Smart Interviews",
-    "Data Science using Python – NSIC Internship Program",
-    "AI & ML Course – Oracle Academy",
-    "React Course – Simplilearn"
+    "Smart Coder - Smart Interviews",
+    "Oracle Academy - AI & Machine Learning",
+    "Data Science using Python - NSIC",
+    "React Developer - Simplilearn"
   ],
 
   "links": {
-    "github": "https://github.com/abhinavvpatel"
+  "github": "https://github.com/abhinavvpatel",
+  "linkedin": "https://www.linkedin.com/in/abhinav-gunnammagari-974852244/"
   }
 }

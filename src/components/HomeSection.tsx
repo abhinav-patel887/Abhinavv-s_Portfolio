@@ -4,6 +4,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { FaLinkedin, FaInstagram } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
+import { FaGithub } from "react-icons/fa";
 
 const HomeSection = () => {
   const strokeStyle = {
@@ -13,6 +14,7 @@ const HomeSection = () => {
 
   // Replace these with your actual profile links
   const socialLinks = {
+    github: "https://github.com/abhinav-patel887",
     linkedin: "https://www.linkedin.com/in/abhinav-gunnammagari-974852244/",
     twitter: "https://x.com/AbhinavvPatel25",
     instagram: "https://www.instagram.com/abhinav_gunnammagari/",
@@ -33,6 +35,14 @@ const HomeSection = () => {
 
       {/* Social Icons (top right) */}
       <div className="absolute top-6 right-8 flex gap-5 text-white z-20">
+        <a
+          href={socialLinks.github}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-white/70 hover:text-white transition-all duration-300"
+        >
+          <FaGithub size={22} />
+        </a>
         <a
           href={socialLinks.linkedin}
           target="_blank"

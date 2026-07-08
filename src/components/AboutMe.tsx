@@ -132,7 +132,7 @@ const AboutSection: React.FC = () => {
           </motion.div>
 
           {/* Content */}
-          <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
+          <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-start">
             {/* Left Content */}
             <motion.div
               initial="hidden"
@@ -140,68 +140,73 @@ const AboutSection: React.FC = () => {
               viewport={{ once: true }}
               className="space-y-8 order-2 lg:order-1"
               variants={{
-                visible: {
-                  transition: {
-                    staggerChildren: 0.2,
+                 hidden: {},
+                  visible: {
+                    transition: {
+                      staggerChildren: 0.2,
                   },
                 },
               }}
             >
               {/* Paragraphs */}
               {[...Array(3)].map((_, i) => (
-                <motion.div key={i} variants={paragraphVariants} className="relative pl-6 border-l border-white/20">
+                <motion.div
+                  key={i}
+                  variants={  paragraphVariants}
+                  className="relative pl-6 border-l border-white/20"
+                >
                   <p className="text-base sm:text-lg md:text-xl text-gray-300 leading-relaxed">
-                    {i === 0
-                      ? (
-                        <>
-                          A <span className="font-semibold text-white">startup enthusiast</span> with an{" "}
-                          <span className="font-semibold text-white">innovative mindset</span> who landed the role of an{" "}
-                          <span className="font-semibold text-white">Associate Software Engineer (AIML)</span> at Pennant Technologies, 
-                          where I build and deploy <span className="font-semibold text-white">Data Intelligence Platforms (DIP)</span> 
-                          integrating data ingestion, transformation, and ML-driven analytics.
-                        </>
-                      )
-                      : i === 1
-                      ? (
-                        <>
-                          I&apos;m an <span className="font-semibold text-white">entrepreneur-minded</span> individual who has 
-                          experimented with multiple ideas — some didn&apos;t work out, but each one shaped my perspective and resilience. 
-                          I take every failure as a <span className="font-semibold text-white">lesson and an opportunity to grow</span>. 
-                          Currently, I&apos;m focused on improving my social, soft, and technical skills as I continue progressing in my 
-                          journey of learning and building.
-                        </>
-                      )
-                      : (
-                        <>
-                          Passionate about creating{" "}
-                          <span className="font-semibold text-white">scalable, intelligent, and production-grade</span> systems 
-                          that power predictive insights and decision intelligence.
-                        </>
-                      )}
+                    {i === 0 ? (
+                      <>
+                        I'm an{" "}
+                        <span className="font-semibold text-white">AI/ML Engineer</span>{" "}
+                        driven by curiosity and a passion for building intelligent systems
+                        that solve real-world problems. Currently, I work as an{" "}
+                        <span className="font-semibold text-white">
+                          Associate Software Engineer (AI/ML)
+                        </span>{" "}
+                        at{" "}
+                        <span className="font-semibold text-white">
+                          Pennant Technologies
+                        </span>
+                        , where I design and develop enterprise AI applications. I enjoy
+                        combining engineering principles with Artificial Intelligence to build
+                        reliable, scalable, and production-ready software.
+                      </>
+                    ) : i === 1 ? (
+                      <>
+                        Over the past year, I've built{" "}
+                        <span className="font-semibold text-white">
+                          AI Governance Platforms
+                        </span>
+                        ,{" "}
+                        <span className="font-semibold text-white">
+                          Retrieval-Augmented Generation (RAG) systems
+                        </span>
+                        , AI-powered workflow automation, and enterprise data platforms.
+                        My work spans{" "}
+                        <span className="font-semibold text-white">
+                          Large Language Models, AI Agents, FastAPI, Spark, Airflow,
+                          Vector Databases, and Cloud technologies
+                        </span>
+                        , enabling organizations to build intelligent solutions that create
+                        measurable business value.
+                      </>
+                    ) : (
+                      <>
+                        While building production AI systems today, I'm equally passionate about understanding the science behind intelligence. My long-term vision is to explore{" "}
+                        <span className="font-semibold text-white">
+                          Machine Learning, Deep Learning, Neural Networks, Reinforcement
+                          Learning, and the broader DeepTech ecosystem
+                        </span>
+                        . contributing to AI systems that are scalable, trustworthy, and capable of solving meaningful real-world challenges.
+                      </>
+                    )}
                   </p>
                 </motion.div>
               ))}
 
-              {/* Role Tags */}
-              <div className="flex flex-wrap gap-3 pt-4">
-                {[
-                  "Associate Software Engineer",
-                  "Data Engineer",
-                  "AIML Engineer",
-                  "Full-stack Developer",
-                ].map((role, index) => (
-                  <motion.span
-                    key={role}
-                    custom={index}
-                    initial="hidden"
-                    whileInView="visible"
-                    variants={roleVariants}
-                    className="px-5 py-2 bg-white/5 backdrop-blur-sm border border-white/20 rounded-full text-sm font-medium text-white hover:bg-white hover:text-black transition-all duration-300"
-                  >
-                    {role}
-                  </motion.span>
-                ))}
-              </div>
+              
             </motion.div>
 
             {/* Right Image - FIXED: Using Next.js Image */}
@@ -210,20 +215,43 @@ const AboutSection: React.FC = () => {
               whileInView="visible"
               viewport={{ once: true }}
               variants={imageVariants}
-              className="relative order-1 lg:order-2 -translate-y-10"
-            >
-              <div className="relative group cursor-pointer">
+              className="order-1 lg:order-2 flex flex-col items-center"
+              >
+              <div className="relative group cursor-pointer w-full -translate-y-10">
                 <div className="absolute -inset-1 bg-white rounded-2xl blur-2xl opacity-20 group-hover:opacity-40 transition-opacity"></div>
                 <div className="relative bg-white/5 rounded-2xl overflow-hidden border border-white/20">
                   <Image
                     src="/pose.png"
-                    alt="Abhinav Patel - Professional"
+                    alt="Abhinav Gunnammagari"
                     width={600}
                     height={600}
                     className="w-full h-[400px] md:h-[500px] lg:h-[600px] object-cover object-center grayscale hover:grayscale-0 transition-all duration-700"
                     priority
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent pointer-events-none"></div>
+                </div>
+                {/* Role Tags */}
+
+                <div className="flex flex-wrap justify-center gap-3 mt-8">
+                  {[
+                    "AI/ML Engineer",
+                    "Generative AI",
+                    "LLM Applications",
+                    "AI Agents",
+                    "RAG Systems",
+                    "DeepTech",
+                  ].map((role, index) => (
+                    <motion.span
+                      key={role}
+                      custom={index}
+                      initial="hidden"
+                      whileInView="visible"
+                      variants={roleVariants}
+                      className="px-5 py-2 bg-white/5 backdrop-blur-sm border border-white/20 rounded-full text-sm font-medium text-white hover:bg-white hover:text-black transition-all duration-300"
+                    >
+                      {role}
+                    </motion.span>
+                  ))}
                 </div>
               </div>
             </motion.div>
